@@ -1,25 +1,42 @@
-import logo from './logo.svg';
-import './App.css';
+import React from "react";
+import "antd/dist/antd.css";
+import "./index.css";
+import { BrowserRouter as Router, Switch } from "react-router-dom";
+import SignIn from "./Pages/SignIn/SignIn";
+import Test from "./Test/Test.jsx";
+import { Route } from "react-router-dom";
+import DashBoard from "./Pages/DashBoard/DashBoard";
+import Courses from "./Pages/Courses/Courses";
+import Certificate from "./Pages/Certificate/Certificate";
+import Notifications from "./Pages/Notifications/Notifications";
+import LayoutAdmin from "./HOC/Layout/LayoutAdmin";
 
-function App() {
+const App = () => {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <Router>
+      <Switch>
+        <LayoutAdmin>
+          <Route path="/lms" exact>
+            <SignIn />
+          </Route>
+          <Route path="/dashboard" exact>
+            <DashBoard />
+          </Route>
+
+          <Route path="/lo-trinh" exact>
+            <Courses />
+          </Route>
+
+          <Route path="/chung-nhan" exact>
+            <Certificate />
+          </Route>
+          <Route path="/thongbao-task" exact>
+            <Notifications />
+          </Route>
+        </LayoutAdmin>
+      </Switch>
+    </Router>
   );
-}
+};
 
 export default App;
