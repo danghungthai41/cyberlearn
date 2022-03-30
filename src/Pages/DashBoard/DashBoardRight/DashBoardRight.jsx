@@ -7,7 +7,7 @@ const DashBoardRight = () => {
     console.log(value, mode);
   }
   return (
-    <div className="fixed mr-5 h-full overflow-y-scroll">
+    <div className="fixed mr-5 h-full overflow-y-scroll clearScroll">
       <div className="flex flex-col space-y-4">
         <div className="border-[1px] border-white rounded-xl bg-theme p-3 ">
           <div className="mb-4">
@@ -29,7 +29,7 @@ const DashBoardRight = () => {
             <div className="absolute h-4/5 w-1  bg-[#e87e53] left-2 top-2 rounded-full"></div>
           </div>
         </div>
-        <div className="h-full bg-theme">
+        <div className="h-max bg-[#ffffff83] rounded-xl">
           <TopUsers />
         </div>
       </div>

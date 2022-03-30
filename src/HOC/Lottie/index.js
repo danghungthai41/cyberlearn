@@ -1,7 +1,7 @@
 import React from "react";
 import Lottie from "react-lottie";
 
-const UseLottie = ({ data, width, height }) => {
+const UseLottie = ({ data, width, height, className = "" }) => {
   const defaultOptions = {
     loop: true,
     autoplay: true,
@@ -10,7 +10,14 @@ const UseLottie = ({ data, width, height }) => {
       preserveAspectRatio: "xMidYMid slice",
     },
   };
-  return <Lottie options={defaultOptions} height={height} width={width} />;
+  return (
+    <Lottie
+      className={className}
+      options={defaultOptions}
+      height={height}
+      width={width}
+    />
+  );
 };
 
 export default UseLottie;

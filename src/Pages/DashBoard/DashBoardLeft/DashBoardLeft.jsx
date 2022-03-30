@@ -3,11 +3,13 @@ import React from "react";
 import { FaUserShield } from "react-icons/fa";
 import { renderSvg } from "../../../Assets/svg";
 import AvatarCircle from "../../../Components/Avatar/AvatarCircle";
+import ButtonItem from "../../../Components/SwitchButton/ButtonItem/ButtonItem";
 import SwitchButton from "../../../Components/SwitchButton/SwitchButton";
 import UseLottie from "../../../HOC/Lottie";
 import img from "../../../Theme";
 import lottie from "../../../Utils";
 import MyCourses from "./MyCouses/MyCourses";
+import ButtonGoTo from "../../../Components/SwitchButton/ButtonGoTo/ButtonGoTo.jsx";
 const DashBoardLeft = () => {
   return (
     <>
@@ -98,22 +100,19 @@ const DashBoardLeft = () => {
           className="bg-theme ml-4 rounded-xl h-64 w-2/5"
           style={{ border: "1px solid #ffffff" }}
         >
-          <div className="w-3/4 m-auto">
-            <SwitchButton
-              buttonArr={["Cửa Hàng", "Vật Phẩm"]}
-              Icon={FaUserShield}
-            />
+          <div className="w-3/5 m-auto ">
+            <SwitchButton buttonArr={["Cửa Hàng", "Vật Phẩm"]} />
           </div>
         </div>
       </div>
 
-      <div className="w-full h-96 flex space-x-4 overflow-hidden">
-        <div className="bg-theme border-[1px] border-white rounded-xl w-2/5   overflow-y-scroll">
-          <div className="p-3 flex flex-col space-y-2">
+      <div className="w-full h-96 flex space-x-4 overflow-hidden ">
+        <div className="bg-theme border-[1px] border-white rounded-xl w-2/5 overflow-y-scroll clearScroll">
+          <div className="p-3 flex flex-col space-y-2 ">
             <div>
               <p className="text-lg font-normal">Khóa đang học</p>
             </div>
-            <div className="flex flex-col   bg-gradient-to-r   from-[#ffffff] to-[#ffffff83] p-2 rounded-xl hover:bg-[#EAE5F4] hover:shadow-lg  duration-500 transition-all">
+            <div className="flex flex-col  bg-theme p-2 rounded-xl hover:bg-[#EAE5F4] hover:shadow-lg  duration-500 transition-all">
               <div className="flex flex-col space-y-3 text-sm">
                 <p className="whitespace-nowrap text-ellipsis overflow-hidden ">
                   Combo Tư duy lập trình, thuật toán, hướng đối tượng
@@ -132,15 +131,14 @@ const DashBoardLeft = () => {
                     <p className="mb-2 whitespace-nowrap overflow-hidden text-ellipsis text-lg font-medium">
                       Bài 19: Biểu thức ? : và bài tập tính tiền
                     </p>
-                    <button className="bg-[#222260] py-1 px-2 text-white rounded-lg">
-                      Tiếp tục học
-                    </button>
+
+                    <ButtonGoTo>Tiếp tục học</ButtonGoTo>
                   </div>
                 </div>
               </div>
             </div>
 
-            <div className="flex flex-col   bg-gradient-to-r   from-[#ffffff] to-[#ffffff83] p-2 rounded-xl hover:bg-[#EAE5F4] hover:shadow-lg  duration-500 transition-all">
+            <div className="flex flex-col bg-theme p-2 rounded-xl hover:bg-[#EAE5F4] hover:shadow-lg  duration-500 transition-all">
               <div className="flex flex-col space-y-3 text-sm">
                 <p className="whitespace-nowrap text-ellipsis overflow-hidden ">
                   Combo Lập trình Front End Master ReactJS
@@ -159,14 +157,12 @@ const DashBoardLeft = () => {
                     <p className="mb-2 whitespace-nowrap overflow-hidden text-ellipsis text-lg font-medium">
                       fix lỗi cài đặt thư viện
                     </p>
-                    <button className="bg-[#222260] py-1 px-2 text-white rounded-lg">
-                      Tiếp tục học
-                    </button>
+                    <ButtonGoTo>Tiếp tục học</ButtonGoTo>
                   </div>
                 </div>
               </div>
             </div>
-            <div className="flex flex-col   bg-gradient-to-r   from-[#ffffff] to-[#ffffff83] p-2 rounded-xl hover:bg-[#EAE5F4] hover:shadow-lg  duration-500 transition-all">
+            <div className="flex flex-col  bg-theme p-2 rounded-xl hover:bg-[#EAE5F4] hover:shadow-lg  duration-500 transition-all">
               <div className="flex flex-col space-y-3 text-sm">
                 <p className="whitespace-nowrap text-ellipsis overflow-hidden ">
                   Combo Lập trình Front End Master ReactJS
@@ -185,9 +181,7 @@ const DashBoardLeft = () => {
                     <p className="mb-2 whitespace-nowrap overflow-hidden text-ellipsis text-lg font-medium">
                       fix lỗi cài đặt thư viện
                     </p>
-                    <button className="bg-[#222260] py-1 px-2 text-white rounded-lg">
-                      Tiếp tục học
-                    </button>
+                    <ButtonGoTo>Tiếp tục học</ButtonGoTo>
                   </div>
                 </div>
               </div>
@@ -209,13 +203,9 @@ const DashBoardLeft = () => {
             </div>
           </div>
         </div>
-
-
-
-
       </div>
 
-      <MyCourses/>
+      <MyCourses />
     </>
   );
 };

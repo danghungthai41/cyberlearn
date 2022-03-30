@@ -2,14 +2,14 @@ import { Progress } from "antd";
 import React from "react";
 import img from "../../Theme";
 import { FaAngleDown } from "react-icons/fa";
-const AvatarCircle = () => {
+const AvatarCircle = ({ percent = 20 }) => {
   // width circle width img transform img stroke-width
   return (
     <div className="relative">
       <div className="">
         <Progress
           type="circle"
-          percent={20}
+          percent={percent}
           width={60} //120
           className="absolute rotate-180"
           strokeWidth={6}

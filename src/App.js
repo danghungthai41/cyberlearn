@@ -33,6 +33,7 @@ const App = () => {
           <Route path="/thongbao-task" exact>
             <Notifications />
           </Route>
+        
         </LayoutAdmin>
       </Switch>
     </Router>

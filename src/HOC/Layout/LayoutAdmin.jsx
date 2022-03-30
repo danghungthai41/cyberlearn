@@ -14,7 +14,7 @@ const LayoutAdmin = ({ children }) => {
   return (
     <Layout
       className="bg-transparent"
-      style={{ backgroundImage: `url(${img.bgTheme})`, minHeight: "100vh" }}
+      style={{ backgroundImage: `url(${img.bgTheme})`, minHeight: "100vh", backgroundPosition: "center", backgroundSize: "cover", backgroundRepeat: "no-repeat" }}
     >
       <Sider
         className="fixed h-full bg-transparent"
