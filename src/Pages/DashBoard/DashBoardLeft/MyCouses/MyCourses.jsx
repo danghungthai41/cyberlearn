@@ -4,10 +4,10 @@ import UseLottie from "../../../../HOC/Lottie";
 import CourseItem from "./CourseItem/CourseItem";
 import lottie from "../../../../Utils";
 import { myCousesList } from "./dataCourses";
-import ButtonGoTo from "../../../../Components/SwitchButton/ButtonGoTo/ButtonGoTo";
+import ButtonDark from "../../../../Components/SwitchButton/ButtonDark/ButtonDark";
 const MyCourses = () => {
   return (
-    <>
+    <div className="relative">
       <div className="w-full h-96 flex space-x-4 overflow-hidden">
         <div className="bg-theme border-[1px] border-white rounded-xl w-3/5 overflow-y-scroll clearScroll">
           <div className="p-3 flex flex-col space-y-2 ">
@@ -34,13 +34,13 @@ const MyCourses = () => {
                 <p className="text-base">Combo Lập trình Front End VueJS</p>
               </div>
               <div className="w-full  flex justify-end">
-                <ButtonGoTo> Đi đến lộ trình</ButtonGoTo>
+                <ButtonDark> Đi đến lộ trình</ButtonDark>
               </div>
             </div>
           </div>
         </div>
       </div>
-    </>
+    </div>
   );
 };
 

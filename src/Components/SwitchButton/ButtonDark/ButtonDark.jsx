@@ -1,6 +1,6 @@
 import React from "react";
 
-const ButtonGoTo = ({ children }) => {
+const ButtonDark = ({ children }) => {
   return (
     <button className="bg-[#222260] py-1 px-2 text-white rounded-lg">
       {children}
@@ -8,4 +8,4 @@ const ButtonGoTo = ({ children }) => {
   );
 };
 
-export default ButtonGoTo;
+export default ButtonDark;

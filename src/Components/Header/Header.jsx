@@ -16,7 +16,7 @@ const Header = ({ collapse, setCollapse }) => {
     setCollapse(!collapse);
   };
   return (
-    <header className="bg-theme fixed w-full h-20 border-[1px] border-white">
+    <header className="bg-theme fixed w-full h-20 border-[1px] border-white backdrop-blur z-50">
       <div className="flex h-full justify-between items-center px-11">
         <divv className="flex items-center h-full">
           <FaBars

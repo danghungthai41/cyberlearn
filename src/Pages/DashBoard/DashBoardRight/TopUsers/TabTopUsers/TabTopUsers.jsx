@@ -3,7 +3,7 @@ import { Tabs } from "antd";
 import PositiveUsers from "../PositiveUsers/PositiveUsers";
 import IntelUsers from "../IntelUsers/IntelUsers";
 import UsersLevel from "../UsersLevel/UsersLevel";
-
+import style from "./style.module.css";
 const { TabPane } = Tabs;
 const TabTopUsers = () => {
   function callback(key) {
@@ -28,7 +28,6 @@ const TabTopUsers = () => {
         }}
         key="1"
       >
-        
         <PositiveUsers />
       </TabPane>
       <TabPane tab={<span className="px-4 py-2">Học giỏi</span>} key="2">

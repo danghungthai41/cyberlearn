@@ -7,10 +7,13 @@ import img from "../../Theme";
 import { Content } from "antd/lib/layout/layout";
 import { MenuUnfoldOutlined, MenuFoldOutlined } from "@ant-design/icons";
 import { NavLink } from "react-router-dom";
+import { useLocation } from "react-router-dom";
+import { useParams } from "react-router-dom";
 const LayoutAdmin = ({ children }) => {
   const [collapse, setCollapse] = useState(false);
   const { Sider, Content } = Layout;
-
+  const a = useParams()
+console.log(a)
   return (
     <Layout
       className="bg-transparent"

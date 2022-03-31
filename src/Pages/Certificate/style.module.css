@@ -1,0 +1,6 @@
+.a{
+    @apply bg-[#ffffff83]
+}
+.b{
+    @apply bg-transparent
+}

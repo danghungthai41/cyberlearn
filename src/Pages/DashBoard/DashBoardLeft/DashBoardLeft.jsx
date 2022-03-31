@@ -9,8 +9,35 @@ import UseLottie from "../../../HOC/Lottie";
 import img from "../../../Theme";
 import lottie from "../../../Utils";
 import MyCourses from "./MyCouses/MyCourses";
-import ButtonGoTo from "../../../Components/SwitchButton/ButtonGoTo/ButtonGoTo.jsx";
+import Chart from "chart.js/auto";
+
+import { Line } from "react-chartjs-2";
+
+import ButtonDark from "../../../Components/SwitchButton/ButtonDark/ButtonDark.jsx";
 const DashBoardLeft = () => {
+  const data = {
+    labels: ["Thứ 2", "Thứ 3", "Thứ 4", "Thứ 5", "Thứ 6", "Thứ 7", "CN"],
+    datasets: [
+      {
+        label: "Ngày",
+        data: [0, 1, 2, 3, 1, 2, 3, 4, 8, 7, 6, 3, 2, 4, 6, 4],
+        fill: false,
+        backgroundColor: "#0071bd",
+        borderColor: "#0071bd",
+      },
+    ],
+  };
+  const options = {
+    scales: {
+      yAxes: [
+        {
+          ticks: {
+            beginAtZero: true,
+          },
+        },
+      ],
+    },
+  };
   return (
     <>
       <div className="flex">
@@ -100,9 +127,13 @@ const DashBoardLeft = () => {
           className="bg-theme ml-4 rounded-xl h-64 w-2/5"
           style={{ border: "1px solid #ffffff" }}
         >
-          <div className="w-3/5 m-auto ">
-            <SwitchButton buttonArr={["Cửa Hàng", "Vật Phẩm"]} />
+          <div className="w-3/5 m-auto mt-3">
+            <SwitchButton buttonArr={["Vật Phẩm", "Cửa Hàng"]} />
+         
           </div>
+          <div className="w-full h-36 p-5 text-base mt-10">
+            Bạn chưa có vật phẩm nào, hãy học tập thật tốt & rèn luyện thật nhiều để đổi lấy các vật phẩm bạn nhé! Hoặc tham khảo các Vật Phẩm bên Cửa Hàng nè!
+            </div>
         </div>
       </div>
 
@@ -132,7 +163,7 @@ const DashBoardLeft = () => {
                       Bài 19: Biểu thức ? : và bài tập tính tiền
                     </p>
 
-                    <ButtonGoTo>Tiếp tục học</ButtonGoTo>
+                    <ButtonDark>Tiếp tục học</ButtonDark>
                   </div>
                 </div>
               </div>
@@ -157,7 +188,7 @@ const DashBoardLeft = () => {
                     <p className="mb-2 whitespace-nowrap overflow-hidden text-ellipsis text-lg font-medium">
                       fix lỗi cài đặt thư viện
                     </p>
-                    <ButtonGoTo>Tiếp tục học</ButtonGoTo>
+                    <ButtonDark>Tiếp tục học</ButtonDark>
                   </div>
                 </div>
               </div>
@@ -181,7 +212,7 @@ const DashBoardLeft = () => {
                     <p className="mb-2 whitespace-nowrap overflow-hidden text-ellipsis text-lg font-medium">
                       fix lỗi cài đặt thư viện
                     </p>
-                    <ButtonGoTo>Tiếp tục học</ButtonGoTo>
+                    <ButtonDark>Tiếp tục học</ButtonDark>
                   </div>
                 </div>
               </div>
@@ -200,6 +231,9 @@ const DashBoardLeft = () => {
                 buttonArr={["1 Tuần", "1 Tháng", "3 Tháng"]}
                 width={15}
               />
+            </div>
+            <div className="h-full w-full">
+              <Line className="w-full h-full" data={data} options={options} />
             </div>
           </div>
         </div>

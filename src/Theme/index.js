@@ -12,6 +12,8 @@ import broadcastIcon from "../Assets/img/broadcast.png";
 import graduationCapIcon from "../Assets/img/graduation-cap.png";
 import eventIcon from "../Assets/img/event.png";
 import avatartest from "../Assets/img/avatartest.jpeg";
+import graduation from "../Assets/img/graduation.png";
+import support from "../Assets/img/support.png";
 
 export default {
   bgTheme,
@@ -27,5 +29,7 @@ export default {
   broadcastIcon,
   graduationCapIcon,
   eventIcon,
-  corporal
+  corporal,
+  graduation,
+  support
 };

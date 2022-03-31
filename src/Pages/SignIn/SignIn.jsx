@@ -2,7 +2,7 @@ import React from "react";
 import img from "../../Theme";
 import { FaFacebookF } from "react-icons/fa";
 import UseLottie from "../../HOC/Lottie";
-import lottie from "../../Utils"
+import lottie from "../../Utils";
 const SignIn = () => {
   return (
     <div
@@ -52,7 +52,12 @@ const SignIn = () => {
               className="h-full w-2/5 relative left-5"
               style={{ backgroundImage: `url(${img.whiteCirle})` }}
             >
-              <UseLottie data={lottie.computer} width={600} height={600}/>
+              <UseLottie
+                data={lottie.computer}
+                width={600}
+                height={600}
+                loop={1}
+              />
             </div>
           </div>
         </div>

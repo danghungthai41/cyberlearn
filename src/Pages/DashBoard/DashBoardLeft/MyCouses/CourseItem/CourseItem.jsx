@@ -1,13 +1,13 @@
 import { Progress } from "antd";
 import React from "react";
-import ButtonGoTo from "../../../../../Components/SwitchButton/ButtonGoTo/ButtonGoTo";
+import ButtonDark from "../../../../../Components/SwitchButton/ButtonDark/ButtonDark";
 
 const CourseItem = ({ course: { titleCourse, lstCircle } }) => {
   return (
     <div className="bg-theme flex p-3 rounded-xl justify-between">
       <div className="w-1/3 ">
         <p className="text-lg mb-3">{titleCourse}</p>
-        <ButtonGoTo> Đi đến lộ trình</ButtonGoTo>
+        <ButtonDark> Đi đến lộ trình</ButtonDark>
       </div>
       <div className="flex w-2/3 space-x-4 justify-around">
         {lstCircle.map((item) => (
