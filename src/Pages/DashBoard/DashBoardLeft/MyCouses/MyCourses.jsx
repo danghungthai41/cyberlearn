@@ -14,8 +14,8 @@ const MyCourses = () => {
             <div className="">
               <p className="text-lg">Lộ trình của bạn</p>
             </div>
-            {myCousesList.map((course) => (
-              <CourseItem course={course} />
+            {myCousesList.map((course, index) => (
+              <CourseItem course={course} key={index} />
             ))}
           </div>
         </div>

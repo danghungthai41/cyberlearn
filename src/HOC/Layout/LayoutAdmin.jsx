@@ -11,13 +11,19 @@ import { useLocation } from "react-router-dom";
 import { useParams } from "react-router-dom";
 const LayoutAdmin = ({ children }) => {
   const [collapse, setCollapse] = useState(false);
+  const [active, setActive] = useState("/dashboard");
   const { Sider, Content } = Layout;
-  const a = useParams()
-console.log(a)
+
   return (
     <Layout
       className="bg-transparent"
-      style={{ backgroundImage: `url(${img.bgTheme})`, minHeight: "100vh", backgroundPosition: "center", backgroundSize: "cover", backgroundRepeat: "no-repeat" }}
+      style={{
+        backgroundImage: `url(${img.bgTheme})`,
+        minHeight: "100vh",
+        backgroundPosition: "center",
+        backgroundSize: "cover",
+        backgroundRepeat: "no-repeat",
+      }}
     >
       <Sider
         className="fixed h-full bg-transparent"
@@ -32,8 +38,11 @@ console.log(a)
           defaultSelectedKeys={["1"]}
         >
           <Menu.Item
-            className="after:border-none p-3  text-black h-auto bg-inherit shadow-lg rounded-xl hover:color-[#000] hover:bg-transparent active:bg-transparent active:text-black"
+            className={`after:border-none p-3 ${
+              active === "/dashboard" ? "shadow-lg" : ""
+            }  text-black h-auto bg-inherit  rounded-xl hover:color-[#000] hover:bg-transparent `}
             key="1"
+            onClick={() => setActive("/dashboard")}
           >
             <div className="flex flex-col text-center items-center justify-center">
               <img className="w-6 mb-2" src={img.homeIcon} alt="" />
@@ -48,8 +57,11 @@ console.log(a)
           </Menu.Item>
 
           <Menu.Item
-            className="after:border-none p-5  text-black h-auto"
+            className={`after:border-none p-3 ${
+              active === "/lo-trinh" ? "shadow-lg" : ""
+            }  text-black h-auto bg-inherit  rounded-xl hover:color-[#000] hover:bg-transparent `}
             key="2"
+            onClick={() => setActive("/lo-trinh")}
           >
             <div className="flex flex-col text-center items-center justify-center">
               <img
@@ -66,13 +78,16 @@ console.log(a)
           </Menu.Item>
 
           <Menu.Item
-            className="after:border-none p-5  text-black h-auto "
+            className={`after:border-none p-3 ${
+              active === "/chung-nhan" ? "shadow-lg" : ""
+            }  text-black h-auto bg-inherit  rounded-xl hover:color-[#000] hover:bg-transparent `}
             key="3"
+            onClick={() => setActive("/chung-nhan")}
           >
             <div className="flex flex-col text-center items-center justify-center">
               <img className="w-6 mb-2" src={img.graduationCapIcon} alt="" />
               <NavLink to="/chung-nhan">
-                <span className="text-sm m-0 whitespace-pre-wrap tracking-tighter text-black">
+                <span className="text-sm m-0 inline-block h-10 break-spaces tracking-tighter text-black">
                   {!collapse && "Điểm & Chứng nhận"}
                 </span>
               </NavLink>
@@ -80,15 +95,18 @@ console.log(a)
           </Menu.Item>
 
           <Menu.Item
-            className="after:border-none p-5  text-black h-auto"
+            className={`after:border-none p-3 ${
+              active === "/thongbao-task" ? "shadow-lg" : ""
+            }  text-black h-auto bg-inherit  rounded-xl hover:color-[#000] hover:bg-transparent `}
             key="4"
+            onClick={() => setActive("/thongbao-task")}
           >
             <div className="flex flex-col text-center items-center justify-center">
               <img className="w-6 mb-2" src={img.eventIcon} alt="" />
 
               {!collapse && (
                 <NavLink to="/thongbao-task">
-                  <span className="text-sm m-0 whitespace-pre-wrap tracking-tighter text-black">
+                  <span className="text-sm m-0 inline-block h-10 break-spaces tracking-tighter text-black ">
                     Thông báo & Sự kiện
                   </span>
                 </NavLink>

@@ -18,14 +18,14 @@ const Header = ({ collapse, setCollapse }) => {
   return (
     <header className="bg-theme fixed w-full h-20 border-[1px] border-white backdrop-blur z-50">
       <div className="flex h-full justify-between items-center px-11">
-        <divv className="flex items-center h-full">
+        <div className="flex items-center h-full">
           <FaBars
             size={20}
             className="mr-3 cursor-pointer"
             onClick={onSetCollapse}
           />
           <img src={img.logo} alt="" className="w-40" />
-        </divv>
+        </div>
 
         <div className="flex h-full space-x-4 py-2">
           <div className="flex flex-col w-72">

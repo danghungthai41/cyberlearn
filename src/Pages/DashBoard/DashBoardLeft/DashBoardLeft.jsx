@@ -128,7 +128,7 @@ const DashBoardLeft = () => {
           style={{ border: "1px solid #ffffff" }}
         >
           <div className="w-3/5 m-auto mt-3">
-            <SwitchButton buttonArr={["Vật Phẩm", "Cửa Hàng"]} />
+            <SwitchButton px="px-3" py="py-1" buttonArr={["Vật Phẩm", "Cửa Hàng"]} />
          
           </div>
           <div className="w-full h-36 p-5 text-base mt-10">
@@ -226,10 +226,11 @@ const DashBoardLeft = () => {
               <p className="text-lg font-normal">Thống kê thời gian học</p>
             </div>
             <div className="flex justify-between w-full">
-              <SwitchButton buttonArr={["Bạn", "Top 5"]} width={13} />
+              <SwitchButton px="px-3" py="py-1" buttonArr={["Bạn", "Top 5"]} width={13} />
               <SwitchButton
                 buttonArr={["1 Tuần", "1 Tháng", "3 Tháng"]}
                 width={15}
+                px="px-5" py="py-1"
               />
             </div>
             <div className="h-full w-full">

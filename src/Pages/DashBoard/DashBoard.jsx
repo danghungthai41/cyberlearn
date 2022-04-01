@@ -1,13 +1,5 @@
-import React, { useState } from "react";
-import AvatarCircle from "../../Components/Avatar/AvatarCircle";
-import Header from "../../Components/Header/Header";
-import LayoutAdmin from "../../HOC/Layout/LayoutAdmin";
-import UseLottie from "../../HOC/Lottie";
-import img from "../../Theme";
-import { Progress } from "antd";
-import { renderSvg } from "../../Assets/svg";
-import SwitchButton from "../../Components/SwitchButton/SwitchButton";
-import { FaUserShield } from "react-icons/fa";
+import React from "react";
+
 import DashBoardLeft from "./DashBoardLeft/DashBoardLeft";
 import DashBoardRight from "./DashBoardRight/DashBoardRight";
 const DashBoard = () => {

@@ -31,3 +31,12 @@
   border-radius: 12px !important;
 
 }
+.break-spaces{
+  white-space: break-spaces;
+}
+.ant-menu-item-selected{
+  @apply bg-white
+}
+.ant-tabs-ink-bar{
+  @apply bg-black
+}
