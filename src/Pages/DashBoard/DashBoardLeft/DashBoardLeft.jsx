@@ -45,7 +45,7 @@ const DashBoardLeft = () => {
           <div className="flex">
             <div className="bg-[#fffff83] flex flex-col justify-center items-center">
               <div className="translate-x-4 translate-y-10 scale-150">
-                <AvatarCircle />
+                <AvatarCircle scale="scale-150" />
               </div>
               <p className="flex space-x-2 items-center -mt-[20px]">
                 <span className="text-xl font-semibold">Beginner </span>
@@ -128,12 +128,17 @@ const DashBoardLeft = () => {
           style={{ border: "1px solid #ffffff" }}
         >
           <div className="w-3/5 m-auto mt-3">
-            <SwitchButton px="px-3" py="py-1" buttonArr={["Vật Phẩm", "Cửa Hàng"]} />
-         
+            <SwitchButton
+              px="px-3"
+              py="py-1"
+              buttonArr={["Vật Phẩm", "Cửa Hàng"]}
+            />
           </div>
           <div className="w-full h-36 p-5 text-base mt-10">
-            Bạn chưa có vật phẩm nào, hãy học tập thật tốt & rèn luyện thật nhiều để đổi lấy các vật phẩm bạn nhé! Hoặc tham khảo các Vật Phẩm bên Cửa Hàng nè!
-            </div>
+            Bạn chưa có vật phẩm nào, hãy học tập thật tốt & rèn luyện thật
+            nhiều để đổi lấy các vật phẩm bạn nhé! Hoặc tham khảo các Vật Phẩm
+            bên Cửa Hàng nè!
+          </div>
         </div>
       </div>
 
@@ -226,11 +231,17 @@ const DashBoardLeft = () => {
               <p className="text-lg font-normal">Thống kê thời gian học</p>
             </div>
             <div className="flex justify-between w-full">
-              <SwitchButton px="px-3" py="py-1" buttonArr={["Bạn", "Top 5"]} width={13} />
+              <SwitchButton
+                px="px-3"
+                py="py-1"
+                buttonArr={["Bạn", "Top 5"]}
+                width={13}
+              />
               <SwitchButton
                 buttonArr={["1 Tuần", "1 Tháng", "3 Tháng"]}
                 width={15}
-                px="px-5" py="py-1"
+                px="px-5"
+                py="py-1"
               />
             </div>
             <div className="h-full w-full">

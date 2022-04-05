@@ -15,7 +15,7 @@ const Certificate = () => {
 `;
 
   return (
-    <div className="bg-theme w-full h-full p-4 rounded-xl border-[1px] border-white">
+    <div className="certificate bg-theme w-full h-full p-4 rounded-xl border-[1px] border-white">
       <div className="flex flex-col space-y-14   ">
         <div className="h-72 flex bg-theme border-[1px] border-white rounded-xl">
           <div className="flex w-1/3 h-full items-center p-4">

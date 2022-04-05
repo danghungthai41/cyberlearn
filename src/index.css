@@ -26,7 +26,7 @@
 .clearScroll::-webkit-scrollbar {
   display: none;
 }
-.ant-collapse-header{
+.certificate .ant-collapse-header{
   background: linear-gradient(117.76deg,hsla(0,0%,100%,.6) -7.21%,hsla(0,0%,100%,.3) 118.08%)!important;
   border-radius: 12px !important;
 

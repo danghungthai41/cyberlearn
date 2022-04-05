@@ -1,6 +1,6 @@
 import React from "react";
 import "antd/dist/antd.css";
-
+import 'animate.css';
 import "./index.css";
 import { BrowserRouter as Router, Switch } from "react-router-dom";
 import SignIn from "./Pages/SignIn/SignIn";

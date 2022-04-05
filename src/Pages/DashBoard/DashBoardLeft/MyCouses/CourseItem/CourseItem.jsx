@@ -2,7 +2,7 @@ import { Progress } from "antd";
 import React from "react";
 import ButtonDark from "../../../../../Components/SwitchButton/ButtonDark/ButtonDark";
 
-const CourseItem = ({ course: { titleCourse, lstCircle } }) => {
+const CourseItem = ({ course: { titleCourse, lstCircle }, width = 90 }) => {
   return (
     <div className="bg-theme flex p-3 rounded-xl justify-between">
       <div className="w-1/3 ">
@@ -14,7 +14,7 @@ const CourseItem = ({ course: { titleCourse, lstCircle } }) => {
           <div key={item.titleCourse}>
             <Progress
               type="circle"
-              width={90}
+              width={width}
               percent={item.percent}
               format={(percent) => (
                 <span

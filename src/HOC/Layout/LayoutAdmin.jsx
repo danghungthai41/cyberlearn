@@ -23,6 +23,7 @@ const LayoutAdmin = ({ children }) => {
         backgroundPosition: "center",
         backgroundSize: "cover",
         backgroundRepeat: "no-repeat",
+
       }}
     >
       <Sider
@@ -81,13 +82,14 @@ const LayoutAdmin = ({ children }) => {
             className={`after:border-none p-3 ${
               active === "/chung-nhan" ? "shadow-lg" : ""
             }  text-black h-auto bg-inherit  rounded-xl hover:color-[#000] hover:bg-transparent `}
-            key="3"
+            key="2"
             onClick={() => setActive("/chung-nhan")}
           >
             <div className="flex flex-col text-center items-center justify-center">
               <img className="w-6 mb-2" src={img.graduationCapIcon} alt="" />
+
               <NavLink to="/chung-nhan">
-                <span className="text-sm m-0 inline-block h-10 break-spaces tracking-tighter text-black">
+                <span className="text-sm m-0 whitespace-pre-wrap tracking-tighter text-black">
                   {!collapse && "Điểm & Chứng nhận"}
                 </span>
               </NavLink>
@@ -103,14 +105,11 @@ const LayoutAdmin = ({ children }) => {
           >
             <div className="flex flex-col text-center items-center justify-center">
               <img className="w-6 mb-2" src={img.eventIcon} alt="" />
-
-              {!collapse && (
-                <NavLink to="/thongbao-task">
-                  <span className="text-sm m-0 inline-block h-10 break-spaces tracking-tighter text-black ">
-                    Thông báo & Sự kiện
-                  </span>
-                </NavLink>
-              )}
+              <NavLink to="/thongbao-task">
+                <span className="text-sm m-0 whitespace-pre-wrap tracking-tighter text-black">
+                {!collapse && "Thông báo & Sự kiện"}
+                </span>
+              </NavLink>
             </div>
           </Menu.Item>
         </Menu>

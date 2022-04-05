@@ -1,7 +1,7 @@
 import React from "react";
 import SwitchButton from "../../Components/SwitchButton/SwitchButton";
 import CoursesCarousel from "./CoursesCarousel/CoursesCarousel";
-
+import AllCourse from "./AllCourses/AllCourse";
 const Courses = () => {
   return (
     <div>
@@ -21,12 +21,8 @@ const Courses = () => {
           </div>
         </div>
 
-        <div className="w-2/3 m-auto">
-            <div>
-              
-            </div>
-
-
+        <div className="w-11/12 m-auto mt-5">
+          <AllCourse />
         </div>
       </div>
     </div>

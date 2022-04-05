@@ -1,0 +1,156 @@
+[
+    {
+      "id": 2,
+      "loTrinhId": 1,
+      "tieuDe": "Cách chụp màn hình máy tính để mentor dễ dàng hỗ trợ",
+      "noiDung": "<h4>Giải quyết</h4>\r\n<a target=\"_blank\" href=\"https://docs.google.com/document/d/1g-bCvSN51xxnmNAH5CD9V4lPAWFzghsHM-Tu4uX9dGM/edit?usp=sharing\">https://docs.google.com/document/</a>",
+      "tags": "[\"tools\"]"
+    },
+    {
+      "id": 7,
+      "loTrinhId": 1,
+      "tieuDe": "Lỗi khi tạo project mới: \"Building workspace\" has encountered a problem\r\n",
+      "noiDung": "Trong bài Bài 5: Chương trình HelloWorld Java <br/>\r\nNội dung lỗi <br/>\r\n\r\n<img width='500' src='https://backend.cyberlearn.vn/images/FadwkLx.jpeg' /> \r\n<br/>\r\n<h4>Giải quyết</h4>\r\nChọn \"Don't Create\" ở màn hình Create module-info.java file\r\n\r\n<img width='500' src='https://backend.cyberlearn.vn/images/aHKlfO9.jpeg' /> ",
+      "tags": "[\"project\",\"eclipse\"]"
+    },
+    {
+      "id": 8,
+      "loTrinhId": 1,
+      "tieuDe": "Code không tự format khi ấn Ctrl + Shift + F",
+      "noiDung": "Trong Bài 6: Luyện tập lệnh xuất Java\r\n<h4>Giải quyết</h4>\r\nChỉnh format theo các bước Preferences => Java => Code Style => Formatter.\r\nThử thay đổi các kiểu formatter khác nhau\r\n<img width='500' src='https://backend.cyberlearn.vn/images/mbSPEVw.jpeg' /> \r\n",
+      "tags": "[\"formar code\",\"eclipse\"]"
+    },
+    {
+      "id": 9,
+      "loTrinhId": 1,
+      "tieuDe": "Chương trình báo lỗi .Save could not be completed. Cp1258. Khi xuất nội dung tiếng việt trong. Không cho save và run",
+      "noiDung": "Trong Bài 6: Luyện tập lệnh xuất Java\r\n<h4>Vấn đề</h4>\r\n<img width='500' src='https://backend.cyberlearn.vn/images/NKQZJPd.jpeg' /> \r\n<h4>Giải quyết</h4>\r\nVào windowns -> preference => general => workspace => kéo xuống Other => Chọn UTF-8\r\n<img width='500' src='https://backend.cyberlearn.vn/images/Iqqa8R0.jpeg' /> ",
+      "tags": "[\"eclipse\"]"
+    },
+    {
+      "id": 10,
+      "loTrinhId": 1,
+      "tieuDe": "Gợi ý bài 1 và 3 (bài tập chương 2  khóa 1)",
+      "noiDung": "<h4>Giải quyết</h4>\r\nBài1: có 2 cách <br/>\r\n* 1: nhập 1 dãy số sau đó chia ra hàng chục nghìn, hành nghìn, hàng trăm, hàng chục, hàng đơn vị.<br/>\r\nVD: 23417 = 2+3+4+1+7<br/>\r\n*2: in hiển thị nhập từng số rồi tính trung bình<br/>\r\nBài 3 liên quan đến if else nên học xong if else rồi quay lại làm các bước sau<br/>\r\nBước 1: bạn cho người dùng nhập vào các biến xC, yC, R, xM, yM<br/>\r\nBước 2: Tính bình phương khoảng cách của 2 điểm C và M<br/>\r\n<img width='500' src='https://backend.cyberlearn.vn/images/Qy2rH3z.jpeg' /> \r\n <br/>\r\nBước 3: Tính bình phương của bán kính <br/>\r\nBước 4: Dùng if để so sánh. <br/>\r\nNếu khoảng cách < bình phương bán kính => kết quả: M nằm trong đường tròn <br/>\r\nNếu khoảng cách = bình phương bán kính => kết quả: M nằm trên đường tròn <br/>\r\nNếu khoảng cách > bình phương bán kính => kết quả: M nằm ngoài đường tròn\r\n",
+      "tags": "[\"suggest\"]"
+    },
+    {
+      "id": 11,
+      "loTrinhId": 1,
+      "tieuDe": "Lỗi đọc file txt trong bài Quản lí Task (bài 11)",
+      "noiDung": "<h4>Giải quyết</h4>\r\nLỗi ở dòng code: String[] listInfo = line.split(\" # \");\r\nTrước và sau dấu # phải có khoảng trắng\r\n\r\n<img width='500' src='https://backend.cyberlearn.vn/images/uld9Sll.jpeg' /> \r\n",
+      "tags": "[\"error\"]"
+    },
+    {
+      "id": 13,
+      "loTrinhId": 1,
+      "tieuDe": "Gợi ý bài 9\r\n Bài tập chương 2 (Tìm kiếm) khóa 3",
+      "noiDung": "<h4>Giải quyết</h4>\r\nTìm số nguyên tố nhỏ nhất có thể với điều kiện số đó phải lớn hơn tất cả các giá trị trong mảng (số nguyên tố không nằm trong mảng).<br/>\r\nVí dụ mảng có dãy số là 1,2,3,4,7,10. - thì số nguyên tố cần tìm là 11.",
+      "tags": "[\"suggest\"]"
+    },
+    {
+      "id": 14,
+      "loTrinhId": 1,
+      "tieuDe": "Gợi ý bài tập 4 Bài tập chương 5 (vòng lặp) khóa 1",
+      "noiDung": "<h4>Giải quyết</h4>\r\nNgười dùng phải nhập n và nhập x \r\n\r\n<img width='500' src='https://backend.cyberlearn.vn/images/8tPO3Vg.jpeg' /> ",
+      "tags": "[\"suggest\"]"
+    },
+    {
+      "id": 15,
+      "loTrinhId": 1,
+      "tieuDe": "Tự động hiện nhanh System.out.println",
+      "noiDung": "<h4>Giải quyết</h4>\r\nGõ Sout -> Ctrl + space <br/>\r\nhoặc sout => giữ ctrl + space => cuộn chuột xuống dưới cùng thấy cái sysout có dòng print mờ mờ thì chọn nó\r\n\r\n\r\n<img width='500' src='https://backend.cyberlearn.vn/images/bRLsAcb.jpeg' /> \r\n<br/>\r\nhoặc sysout -> Ctrl + Space\r\n",
+      "tags": "[\"eclipse\"]"
+    },
+    {
+      "id": 16,
+      "loTrinhId": 1,
+      "tieuDe": "Xuất chữ tiếng việt bị lỗi font\r\n",
+      "noiDung": "<h4>Vấn đề</h4>\r\n<img width='500' src='https://backend.cyberlearn.vn/images/2punI1q.jpeg' /> \r\n\r\n\r\n<h4>Giải quyết</h4>\r\nVào windowns => preference => general => workspace => kéo xuống Other => Chọn UTF-8\r\n\r\n<img width='500' src='https://backend.cyberlearn.vn/images/Iqqa8R0.jpeg' /> ",
+      "tags": "[\"eclipse\"]"
+    },
+    {
+      "id": 17,
+      "loTrinhId": 1,
+      "tieuDe": "Lỗi Scanner cannot be resolved to a type & Báo lỗi ở từ khóa Scanner\r\n",
+      "noiDung": "<h4>Giải quyết</h4>\r\nThiếu thư viện Scanner <br/>\r\nThêm import java.util.Scanner; ở dòng đầu tiên\r\n",
+      "tags": "[\"eclipse\"]"
+    },
+    {
+      "id": 19,
+      "loTrinhId": 1,
+      "tieuDe": "Các bước tạo project và class (có main)",
+      "noiDung": "<h4>Giải quyết</h4>\r\n* Sau khi đặt tên project, nhấn finish.<br/>\r\n* Nhấn Don't create để không tạo module. <br/>\r\n<img width='500' src='https://backend.cyberlearn.vn/images/k73tvJS.jpeg' /> \r\n<br/>\r\n* Nhấn đúp vào project, nhấn chuột phải vào src chọn class.<br/>\r\n<img width='500' src='https://backend.cyberlearn.vn/images/judbqzW.jpeg' /> \r\n\r\n<br/>\r\n* Sau khi đặt tên class, tích vào public static void main(String[] args).\r\n<img width='500' src='https://backend.cyberlearn.vn/images/8m8Ix4L.jpeg' /> \r\n\r\n<br/>\r\n* Nhấn finish.",
+      "tags": "[\"project\",\"eclipse\"]"
+    },
+    {
+      "id": 20,
+      "loTrinhId": 1,
+      "tieuDe": "Gợi ý Case study trồng cây Bài tập chương 2 khóa 1",
+      "noiDung": "<h4>Giải quyết</h4>\r\n\r\nLink mô phổng:\r\n<img width='500' src='https://backend.cyberlearn.vn/images/yQjjX08.jpeg' /> \r\n\r\n<a target=\"_blank\" href= 'https://raw.githack.com/tranngochai171/studyCaseCybersoft/master/index.html '>https://raw.githack.com/ </a>",
+      "tags": "[\"suggest\"]"
+    },
+    {
+      "id": 21,
+      "loTrinhId": 1,
+      "tieuDe": "Gợi ý bài tính tiền cáp Bài tập chương 4 khóa 1",
+      "noiDung": "<h4>Giải quyết</h4>\r\n* Mã khách hàng có số đầu tiên là 1: Nhà Dân, 2: Doanh Nghiệp VD: 1_xxxxx là nhà dân 2_xxxx là doanh nghiệp <br/>\r\n* Số tài khoản:- 2 số đầu tiên quy định số Kênh thuê bao: tối thiếu 01 kênh <br/>\r\n* 2 số kế tiếp quy định số đầu kết nối: 10 - thuê bao dưới 10 đầu nối, 1X - thuê bao trên 10 đầu số <br/>\r\n* VD: account = 0115123: thuê bao có 1 kênh, 15 đầu nối <br/>\r\n* account = 2009456: thuê bao có 20 kênh, 9 đầu nối",
+      "tags": "[\"suggest\"]"
+    },
+    {
+      "id": 22,
+      "loTrinhId": 1,
+      "tieuDe": "Lỗi Could not find or load main class\r\n",
+      "noiDung": "Trong Bài 5: Chương trình HelloWorld Java\r\n<h4>Vấn đề</h4>\r\n<img width='500' src='https://backend.cyberlearn.vn/images/E37Z8uJ.jpeg' /> \r\n\r\n\r\n<h4>Giải quyết</h4>Lỗi này do ellipse không thấy file chứa main để complie và chạy\r\nXem lại cách tạo thư mục ở video và đảm bảo cây thư mục giống hình bên dưới:\r\n<img width='500' src='https://backend.cyberlearn.vn/images/RkAMFe6.jpeg' /> ",
+      "tags": "[\"error\"]"
+    },
+    {
+      "id": 23,
+      "loTrinhId": 1,
+      "tieuDe": "Gợi ý bài tập Quản lý tuyển sinh Bài tập chương 4 khóa 1",
+      "noiDung": "\r\n<h4>Giải quyết</h4>\r\nGần các kỳ thi THPT haowjc Đại học sẽ có điểm đối tượng và điểm khu vực. <br/>\r\nTổng điểm + 2 điểm đó so với điểm chuẩn, nếu >= điểm chuẩn thì đậu. < hoặc có 1 điểm 0 là rớt\r\nVD dtb 7đ thuộc khu vực A, đối tượng 1 thì 7+2+2.5\r\n <br/>\r\nTham khảo cách sau: <br/>\r\nTách làm 3 hàm phụ sau: <br/>\r\n- Tính điểm khu vực: hàm này sẽ nhận vào khu vực và trả ra điểm khu vực <br/>\r\n- Tính điểm đối tượng: hàm này nhận vào đối tượng và trả ra điểm đối tượng <br/>\r\n- Hàm boolean tinhDiemLiet: hàm này nhận vào điểm 3 môn và trả ra true hoặc false <br/>\r\n- Sau đó vào hàm main xử lý if else",
+      "tags": "[\"suggest\"]"
+    },
+    {
+      "id": 26,
+      "loTrinhId": 1,
+      "tieuDe": "Lỗi Launch Error\r\n",
+      "noiDung": "<h4>Vấn đề</h4>\r\n<img width='500' src='https://backend.cyberlearn.vn/images/oMclfgA.jpeg' /> \r\n\r\n\r\n<h4>Giải quyết</h4>\r\nChuột phải vào Project cần xem => chọn Properties\r\n\r\n<img width='500' src='https://backend.cyberlearn.vn/images/m4SzMF8.jpeg' /> \r\n <br/>\r\n  => chọn thẻ Java Build Path\r\n<img width='500' src='https://backend.cyberlearn.vn/images/cz54CwM.jpeg' /> <br/>\r\n => Kiểm tra Mục Source và Libraries xem giống như hình bên dưới chưa\r\n\r\n<img width='500' src='https://backend.cyberlearn.vn/images/yZLrCAu.jpeg' /> ",
+      "tags": "[\"error\"]"
+    },
+    {
+      "id": 29,
+      "loTrinhId": 1,
+      "tieuDe": "string.format \"%-100s\" những kết quả không thẳng hàng theo chiều dọc\r\n",
+      "noiDung": "<h4>Vấn đề</h4>\r\n<img width='500' src='https://backend.cyberlearn.vn/images/g3J94BK.jpeg' /> \r\n\r\n\r\n<h4>Giải quyết</h4>\r\nXem lại kỹ cú pháp\r\n<img width='500' src='https://backend.cyberlearn.vn/images/39wu0Ba.jpeg' /> \r\n<br/>\r\nGiải pháp cuối là thử cách rút gọn: \"%1$\r\n",
+      "tags": "[\"suggest\"]"
+    },
+    {
+      "id": 30,
+      "loTrinhId": 1,
+      "tieuDe": "Không thấy thanh menu bên trái sau khi tạo project. \r\n",
+      "noiDung": "<h4>Vấn đề</h4>\r\n<img width='500' src='https://backend.cyberlearn.vn/images/K82DnzE.jpeg' /> \r\n\r\n\r\n<h4>Giải quyết</h4>\r\nchọn Windown => Show View => Project Explorer\r\n\r\n<img width='500' src='https://backend.cyberlearn.vn/images/tVbvtof.jpeg' /> ",
+      "tags": "[\"eclipse\"]"
+    },
+    {
+      "id": 31,
+      "loTrinhId": 1,
+      "tieuDe": "Lỗi khi đổi tên file code\r\n",
+      "noiDung": "<h4>Vấn đề</h4>\r\n<img width='500' src='https://backend.cyberlearn.vn/images/CtfAcpf.jpeg' /> \r\n\r\n\r\n<h4>Giải quyết</h4>\r\nKhông đổi trực tiếp tên file trong máy <br/>\r\nPhải đổi tên theo cách là chọn refactor => rename  <br/>\r\nHoặc chuột phải ở tên class => chon rename",
+      "tags": "[\"error\"]"
+    },
+    {
+      "id": 32,
+      "loTrinhId": 1,
+      "tieuDe": "Lỗi Version of the JVM is not suitable for this product\r\n",
+      "noiDung": "<h4>Vấn đề</h4>\r\n<img width='500' src='https://backend.cyberlearn.vn/images/ui3Cev9.jpeg' /> \r\n\r\n\r\n<h4>Giải quyết</h4>\r\n<a target = \"_blank\" href=\"https://www.youtube.com/watch?v=CgwpdheXvls&ab_channel=Reewen\">www.youtube.com  </a>",
+      "tags": "[\"error\"]"
+    },
+    {
+      "id": 33,
+      "loTrinhId": 1,
+      "tieuDe": "Không cài mở được file cài đặt hoặc không cài đặt được và không chạy được eclipse\r\n",
+      "noiDung": "<h4>Giải quyết</h4>\r\n- Không mở được file cài đặt :   <br/>\r\nC1: Bạn hãy bỏ vào ổ C hoặc desktop rồi thử chạy lại hoặc chuột phải run as to administrator.   <br/>\r\nC2: Dùng bảng package (zip) nằm chung với link tải không cần cài đặt.\r\n  <br/>  <br/>\r\n- Không chạy mở được eclipse:  <br/>\r\nBạn hãy bỏ vào ổ C hoặc desktop rồi thử chạy lại hoặc chuột phải run as to administrator. \r\n",
+      "tags": "[\"error\"]"
+    }
+  ]
