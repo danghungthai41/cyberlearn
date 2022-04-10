@@ -11,7 +11,7 @@ import Certificate from "./Pages/Certificate/Certificate";
 import Notifications from "./Pages/Notifications/Notifications";
 import LayoutAdmin from "./HOC/Layout/LayoutAdmin";
 import Courses from "./Pages/Courses/Courses";
-import Detail from "./Pages/Courses/Detail/Detail";
+import Detail from "./Pages/Detail/Detail";
 
 const App = () => {
   return (
@@ -20,7 +20,7 @@ const App = () => {
         <Route path="/lms" exact>
           <SignIn />
         </Route>
-        <Route path="/detail-khoa-hoc" exact>
+        <Route path="/detail-khoa-hoc/:id" exact>
           <Detail />
         </Route>
         <LayoutAdmin>

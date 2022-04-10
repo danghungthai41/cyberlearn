@@ -8,6 +8,7 @@ import style from "./style.module.css";
 import CardItem from "./CourseComplete/CardItem/CardItem";
 import coursesList from "./Data/dataCertPage.json";
 import dataTable from "./Data/dataTable.json";
+import { NavLink } from "react-router-dom/cjs/react-router-dom.min";
 const Certificate = () => {
   const { Panel } = Collapse;
 
@@ -65,7 +66,12 @@ const Certificate = () => {
                       return course1.danhSachKhoaHoc.map((item1) => {
                         return (
                           item.id === item1.maKhoaHoc && (
-                            <CardItem item={item} data={item1.danhSachBaiTap} />
+                            <NavLink to={`detail-khoa-hoc/${item.id}`}>
+                              <CardItem
+                                item={item}
+                                data={item1.danhSachBaiTap}
+                              />
+                            </NavLink>
                           )
                         );
                       });

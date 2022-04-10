@@ -4,6 +4,7 @@ import workingOnComputer from "./Json/working-on-computer.json";
 import learningConcept from "./Json/learning-concept.json";
 import cardItem_1 from "./Json/card-1.json";
 import gamefi from "./Json/gamefi.json";
+import crying from "./Json/crying.json";
 
 export default {
   coinstar,
@@ -12,4 +13,5 @@ export default {
   learningConcept,
   cardItem_1,
   gamefi,
+  crying
 };

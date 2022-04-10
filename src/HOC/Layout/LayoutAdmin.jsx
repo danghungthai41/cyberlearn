@@ -21,9 +21,8 @@ const LayoutAdmin = ({ children }) => {
       style={{
         backgroundImage: `url(${img.bgTheme})`,
         minHeight: "100vh",
-        backgroundPosition: "center",
-        backgroundSize: "cover",
         backgroundRepeat: "no-repeat",
+        backgroundSize: "cover",
       }}
     >
       <Sider

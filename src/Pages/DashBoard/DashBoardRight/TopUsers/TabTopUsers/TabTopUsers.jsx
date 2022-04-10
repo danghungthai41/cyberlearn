@@ -9,16 +9,8 @@ import dataIntelUsers from "../../Data/dataIntelUsers.json";
 import usersLevel from "../../Data/usersLevel.json";
 const { TabPane } = Tabs;
 const TabTopUsers = () => {
-  function callback(key) {
-    console.log(key);
-  }
   return (
-    <Tabs
-      className=""
-      defaultActiveKey="1"
-      onChange={callback}
-      tabBarGutter={20}
-    >
+    <Tabs className="" defaultActiveKey="1" tabBarGutter={20}>
       <TabPane
         tab={
           <span className="px-4 py-2 h-full text-[#222260] active:border-b-[text-[#222260]]">

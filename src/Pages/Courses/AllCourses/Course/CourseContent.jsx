@@ -77,6 +77,7 @@ const exerciseAndMark = [
 ];
 const options = dataQA.map((item) => item.tieuDe);
 const CourseContent = ({ course }) => {
+  console.log(course.danhSachKhoaHoc);
   return (
     <div className="bg-theme border-[1px] border-white p-4 rounded-xl courseContent">
       <Tabs>
@@ -90,7 +91,7 @@ const CourseContent = ({ course }) => {
         >
           <div className="grid grid-cols-3 gap-14 ">
             {course.danhSachKhoaHoc.map((item) => (
-              <NavLink to="/detail-khoa-hoc">
+              <NavLink to={`/detail-khoa-hoc/${item.id}`}>
                 <CourseContentItem
                   item={item}
                   key={item.id}
