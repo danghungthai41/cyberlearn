@@ -1,9 +1,16 @@
 import { Progress } from "antd";
 import React from "react";
 import ButtonDark from "../../../Components/SwitchButton/ButtonDark/ButtonDark";
-import ButtonItem from "../../../Components/SwitchButton/ButtonItem/ButtonItem";
 import ButtonWhite from "../../../Components/SwitchButton/ButtonWhite/ButtonWhite";
-const CourseComplete = ({title, percent,quantity}) => {
+const CourseComplete = ({
+  course: {
+    tenLoTrinh,
+    soPhutHoanThanh,
+    tongPhut,
+    baiTapNopHoanThanh,
+    tongBaiTapNop,
+  },
+}) => {
   return (
     <div className="w-full ">
       <div className="flex justify-between">
@@ -12,7 +19,7 @@ const CourseComplete = ({title, percent,quantity}) => {
             <Progress
               type="circle"
               width={90}
-              percent={percent}
+              percent={Math.round((soPhutHoanThanh / tongPhut) * 100)}
               format={(percent) => (
                 <span className="text-2xl font-semibold text-[#755FD3]">
                   {percent}%
@@ -23,14 +30,17 @@ const CourseComplete = ({title, percent,quantity}) => {
               trailColor="#D0C9F0"
             />
             <div className="ml-4 text-xl">
-              <p>{title}</p>
+              <p>{tenLoTrinh}</p>
             </div>
           </div>
         </div>
 
         <div className="flex flex-col space-y-4 justify-center items-center">
           <div>
-            <p className="text-base font-medium">Bạn đã hoàn thành {quantity} bài tập</p>
+            <p className="text-base font-medium">
+              Bạn đã hoàn thành {`${baiTapNopHoanThanh} / ${tongBaiTapNop}  `}{" "}
+              bài tập
+            </p>
           </div>
           <div className="flex space-x-3">
             <ButtonDark>Xem chứng nhận</ButtonDark>

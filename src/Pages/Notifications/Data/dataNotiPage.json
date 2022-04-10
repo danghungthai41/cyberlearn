@@ -1,0 +1,310 @@
+[
+    {
+      "id": 44,
+      "ngayThang": "1 giờ trước",
+      "noiDung": "Điểm tích cực của bạn bằng 0 (bạn sẽ bị hạn chế một số chức năng), hãy online hoặc mua item để tăng điểm tích cực",
+      "daXem": false,
+      "loaiThongBao": "TICHCUC"
+    },
+    {
+      "id": 43,
+      "ngayThang": "1 ngày trước",
+      "noiDung": "Điểm tích cực của bạn bằng 0 (bạn sẽ bị hạn chế một số chức năng), hãy online hoặc mua item để tăng điểm tích cực",
+      "daXem": false,
+      "loaiThongBao": "TICHCUC"
+    },
+    {
+      "id": 42,
+      "ngayThang": "2 ngày trước",
+      "noiDung": "Điểm tích cực của bạn bằng 0 (bạn sẽ bị hạn chế một số chức năng), hãy online hoặc mua item để tăng điểm tích cực",
+      "daXem": false,
+      "loaiThongBao": "TICHCUC"
+    },
+    {
+      "id": 41,
+      "ngayThang": "4 ngày trước",
+      "noiDung": "Điểm tích cực của bạn bằng 0 (bạn sẽ bị hạn chế một số chức năng), hãy online hoặc mua item để tăng điểm tích cực",
+      "daXem": false,
+      "loaiThongBao": "TICHCUC"
+    },
+    {
+      "id": 40,
+      "ngayThang": "5 ngày trước",
+      "noiDung": "Điểm tích cực của bạn bằng 0 (bạn sẽ bị hạn chế một số chức năng), hãy online hoặc mua item để tăng điểm tích cực",
+      "daXem": false,
+      "loaiThongBao": "TICHCUC"
+    },
+    {
+      "id": 39,
+      "ngayThang": "6 ngày trước",
+      "noiDung": "Điểm tích cực của bạn bằng 0 (bạn sẽ bị hạn chế một số chức năng), hãy online hoặc mua item để tăng điểm tích cực",
+      "daXem": false,
+      "loaiThongBao": "TICHCUC"
+    },
+    {
+      "id": 38,
+      "ngayThang": "1 tuần trước",
+      "noiDung": "Điểm tích cực của bạn bằng 0 (bạn sẽ bị hạn chế một số chức năng), hãy online hoặc mua item để tăng điểm tích cực",
+      "daXem": false,
+      "loaiThongBao": "TICHCUC"
+    },
+    {
+      "id": 37,
+      "ngayThang": "1 tuần trước",
+      "noiDung": "Điểm tích cực của bạn bằng 0 (bạn sẽ bị hạn chế một số chức năng), hãy online hoặc mua item để tăng điểm tích cực",
+      "daXem": false,
+      "loaiThongBao": "TICHCUC"
+    },
+    {
+      "id": 36,
+      "ngayThang": "1 tuần trước",
+      "noiDung": "Điểm tích cực của bạn quá thấp, hãy hoạt động nhiều để tăng điểm tích cực",
+      "daXem": false,
+      "loaiThongBao": "TICHCUC"
+    },
+    {
+      "id": 35,
+      "ngayThang": "1 tuần trước",
+      "noiDung": "Điểm tích cực của bạn bằng 0 (bạn sẽ bị hạn chế một số chức năng), hãy online hoặc mua item để tăng điểm tích cực",
+      "daXem": true,
+      "loaiThongBao": "TICHCUC"
+    },
+    {
+      "id": 34,
+      "ngayThang": "1 tuần trước",
+      "noiDung": "Điểm tích cực của bạn bằng 0 (bạn sẽ bị hạn chế một số chức năng), hãy online hoặc mua item để tăng điểm tích cực",
+      "daXem": true,
+      "loaiThongBao": "TICHCUC"
+    },
+    {
+      "id": 33,
+      "ngayThang": "1 tuần trước",
+      "noiDung": "Điểm tích cực của bạn bằng 0 (bạn sẽ bị hạn chế một số chức năng), hãy online hoặc mua item để tăng điểm tích cực",
+      "daXem": true,
+      "loaiThongBao": "TICHCUC"
+    },
+    {
+      "id": 32,
+      "ngayThang": "1 tuần trước",
+      "noiDung": "Điểm tích cực của bạn quá thấp, hãy hoạt động nhiều để tăng điểm tích cực",
+      "daXem": true,
+      "loaiThongBao": "TICHCUC"
+    },
+    {
+      "id": 31,
+      "ngayThang": "1 tuần trước",
+      "noiDung": "Điểm tích cực của bạn bằng 0 (bạn sẽ bị hạn chế một số chức năng), hãy online hoặc mua item để tăng điểm tích cực",
+      "daXem": true,
+      "loaiThongBao": "TICHCUC"
+    },
+    {
+      "id": 30,
+      "ngayThang": "1 tuần trước",
+      "noiDung": "Điểm tích cực của bạn bằng 0 (bạn sẽ bị hạn chế một số chức năng), hãy online hoặc mua item để tăng điểm tích cực",
+      "daXem": true,
+      "loaiThongBao": "TICHCUC"
+    },
+    {
+      "id": 29,
+      "ngayThang": "1 tuần trước",
+      "noiDung": "Điểm tích cực của bạn quá thấp, hãy hoạt động nhiều để tăng điểm tích cực",
+      "daXem": true,
+      "loaiThongBao": "TICHCUC"
+    },
+    {
+      "id": 28,
+      "ngayThang": "3 tuần trước",
+      "noiDung": "Điểm tích cực của bạn bằng 0 (bạn sẽ bị hạn chế một số chức năng), hãy online hoặc mua item để tăng điểm tích cực",
+      "daXem": true,
+      "loaiThongBao": "TICHCUC"
+    },
+    {
+      "id": 27,
+      "ngayThang": "3 tuần trước",
+      "noiDung": "Điểm tích cực của bạn bằng 0 (bạn sẽ bị hạn chế một số chức năng), hãy online hoặc mua item để tăng điểm tích cực",
+      "daXem": true,
+      "loaiThongBao": "TICHCUC"
+    },
+    {
+      "id": 26,
+      "ngayThang": "1 tháng trước",
+      "noiDung": "Điểm tích cực của bạn bằng 0 (bạn sẽ bị hạn chế một số chức năng), hãy online hoặc mua item để tăng điểm tích cực",
+      "daXem": true,
+      "loaiThongBao": "TICHCUC"
+    },
+    {
+      "id": 25,
+      "ngayThang": "1 tháng trước",
+      "noiDung": "Điểm tích cực của bạn bằng 0 (bạn sẽ bị hạn chế một số chức năng), hãy online hoặc mua item để tăng điểm tích cực",
+      "daXem": true,
+      "loaiThongBao": "TICHCUC"
+    },
+    {
+      "id": 24,
+      "ngayThang": "1 tháng trước",
+      "noiDung": "Điểm tích cực của bạn bằng 0 (bạn sẽ bị hạn chế một số chức năng), hãy online hoặc mua item để tăng điểm tích cực",
+      "daXem": true,
+      "loaiThongBao": "TICHCUC"
+    },
+    {
+      "id": 23,
+      "ngayThang": "1 tháng trước",
+      "noiDung": "Điểm tích cực của bạn quá thấp, hãy hoạt động nhiều để tăng điểm tích cực",
+      "daXem": true,
+      "loaiThongBao": "TICHCUC"
+    },
+    {
+      "id": 22,
+      "ngayThang": "1 tháng trước",
+      "noiDung": "Điểm tích cực của bạn bằng 0 (bạn sẽ bị hạn chế một số chức năng), hãy online hoặc mua item để tăng điểm tích cực",
+      "daXem": true,
+      "loaiThongBao": "TICHCUC"
+    },
+    {
+      "id": 21,
+      "ngayThang": "2 tháng trước",
+      "noiDung": "Bạn vừa được gia hạn lộ trình: Combo Backend - NodeJS Foundation. Viết API cho dự án thực tế",
+      "daXem": true,
+      "loaiThongBao": "HOCTAP"
+    },
+    {
+      "id": 20,
+      "ngayThang": "2 tháng trước",
+      "noiDung": "Điểm tích cực của bạn bằng 0 (bạn sẽ bị hạn chế một số chức năng), hãy online hoặc mua item để tăng điểm tích cực",
+      "daXem": true,
+      "loaiThongBao": "TICHCUC"
+    },
+    {
+      "id": 19,
+      "ngayThang": "2 tháng trước",
+      "noiDung": "Điểm tích cực của bạn bằng 0 (bạn sẽ bị hạn chế một số chức năng), hãy online hoặc mua item để tăng điểm tích cực",
+      "daXem": true,
+      "loaiThongBao": "TICHCUC"
+    },
+    {
+      "id": 18,
+      "ngayThang": "3 tháng trước",
+      "noiDung": "Điểm tích cực của bạn bằng 0 (bạn sẽ bị hạn chế một số chức năng), hãy online hoặc mua item để tăng điểm tích cực",
+      "daXem": true,
+      "loaiThongBao": "TICHCUC"
+    },
+    {
+      "id": 17,
+      "ngayThang": "3 tháng trước",
+      "noiDung": "Điểm tích cực của bạn bằng 0 (bạn sẽ bị hạn chế một số chức năng), hãy online hoặc mua item để tăng điểm tích cực",
+      "daXem": true,
+      "loaiThongBao": "TICHCUC"
+    },
+    {
+      "id": 16,
+      "ngayThang": "3 tháng trước",
+      "noiDung": "Điểm tích cực của bạn bằng 0 (bạn sẽ bị hạn chế một số chức năng), hãy online hoặc mua item để tăng điểm tích cực",
+      "daXem": true,
+      "loaiThongBao": "TICHCUC"
+    },
+    {
+      "id": 15,
+      "ngayThang": "3 tháng trước",
+      "noiDung": "Điểm tích cực của bạn bằng 0 (bạn sẽ bị hạn chế một số chức năng), hãy online hoặc mua item để tăng điểm tích cực",
+      "daXem": true,
+      "loaiThongBao": "TICHCUC"
+    },
+    {
+      "id": 14,
+      "ngayThang": "3 tháng trước",
+      "noiDung": "Điểm tích cực của bạn bằng 0 (bạn sẽ bị hạn chế một số chức năng), hãy online hoặc mua item để tăng điểm tích cực",
+      "daXem": true,
+      "loaiThongBao": "TICHCUC"
+    },
+    {
+      "id": 13,
+      "ngayThang": "3 tháng trước",
+      "noiDung": "Điểm tích cực của bạn quá thấp, hãy hoạt động nhiều để tăng điểm tích cực",
+      "daXem": true,
+      "loaiThongBao": "TICHCUC"
+    },
+    {
+      "id": 12,
+      "ngayThang": "3 tháng trước",
+      "noiDung": "Điểm tích cực của bạn bằng 0 (bạn sẽ bị hạn chế một số chức năng), hãy online hoặc mua item để tăng điểm tích cực",
+      "daXem": true,
+      "loaiThongBao": "TICHCUC"
+    },
+    {
+      "id": 11,
+      "ngayThang": "4 tháng trước",
+      "noiDung": "Điểm tích cực của bạn bằng 0 (bạn sẽ bị hạn chế một số chức năng), hãy online hoặc mua item để tăng điểm tích cực",
+      "daXem": true,
+      "loaiThongBao": "TICHCUC"
+    },
+    {
+      "id": 10,
+      "ngayThang": "4 tháng trước",
+      "noiDung": "Điểm tích cực của bạn bằng 0 (bạn sẽ bị hạn chế một số chức năng), hãy online hoặc mua item để tăng điểm tích cực",
+      "daXem": true,
+      "loaiThongBao": "TICHCUC"
+    },
+    {
+      "id": 9,
+      "ngayThang": "4 tháng trước",
+      "noiDung": "Điểm tích cực của bạn bằng 0 (bạn sẽ bị hạn chế một số chức năng), hãy online hoặc mua item để tăng điểm tích cực",
+      "daXem": true,
+      "loaiThongBao": "TICHCUC"
+    },
+    {
+      "id": 8,
+      "ngayThang": "4 tháng trước",
+      "noiDung": "Điểm tích cực của bạn bằng 0 (bạn sẽ bị hạn chế một số chức năng), hãy online hoặc mua item để tăng điểm tích cực",
+      "daXem": true,
+      "loaiThongBao": "TICHCUC"
+    },
+    {
+      "id": 7,
+      "ngayThang": "4 tháng trước",
+      "noiDung": "Điểm tích cực của bạn bằng 0 (bạn sẽ bị hạn chế một số chức năng), hãy online hoặc mua item để tăng điểm tích cực",
+      "daXem": true,
+      "loaiThongBao": "TICHCUC"
+    },
+    {
+      "id": 6,
+      "ngayThang": "4 tháng trước",
+      "noiDung": "Điểm tích cực của bạn bằng 0 (bạn sẽ bị hạn chế một số chức năng), hãy online hoặc mua item để tăng điểm tích cực",
+      "daXem": true,
+      "loaiThongBao": "TICHCUC"
+    },
+    {
+      "id": 5,
+      "ngayThang": "4 tháng trước",
+      "noiDung": "Điểm tích cực của bạn bằng 0 (bạn sẽ bị hạn chế một số chức năng), hãy online hoặc mua item để tăng điểm tích cực",
+      "daXem": true,
+      "loaiThongBao": "TICHCUC"
+    },
+    {
+      "id": 4,
+      "ngayThang": "4 tháng trước",
+      "noiDung": "Điểm tích cực của bạn bằng 0 (bạn sẽ bị hạn chế một số chức năng), hãy online hoặc mua item để tăng điểm tích cực",
+      "daXem": true,
+      "loaiThongBao": "TICHCUC"
+    },
+    {
+      "id": 3,
+      "ngayThang": "4 tháng trước",
+      "noiDung": "Điểm tích cực của bạn bằng 0 (bạn sẽ bị hạn chế một số chức năng), hãy online hoặc mua item để tăng điểm tích cực",
+      "daXem": true,
+      "loaiThongBao": "TICHCUC"
+    },
+    {
+      "id": 2,
+      "ngayThang": "5 tháng trước",
+      "noiDung": "Bạn vừa được gia hạn lộ trình: Combo Lập trình Front End Master ReactJS",
+      "daXem": true,
+      "loaiThongBao": "HOCTAP"
+    },
+    {
+      "id": 1,
+      "ngayThang": "5 tháng trước",
+      "noiDung": "Bạn vừa được ghi danh lộ trình: Combo Backend - NodeJS Foundation. Viết API cho dự án thực tế",
+      "daXem": true,
+      "loaiThongBao": "HOCTAP"
+    }
+  ]

@@ -1,4 +1,4 @@
-import { Progress } from "antd";
+import { Progress, Tooltip } from "antd";
 import React from "react";
 import { FaUserShield } from "react-icons/fa";
 import { renderSvg } from "../../../Assets/svg";
@@ -47,10 +47,16 @@ const DashBoardLeft = () => {
               <div className="translate-x-4 translate-y-10 scale-150">
                 <AvatarCircle scale="scale-150" />
               </div>
-              <p className="flex space-x-2 items-center -mt-[20px]">
-                <span className="text-xl font-semibold">Beginner </span>
-                <img className="w-6 h-6" src={img.corporal} alt="" />
-              </p>
+
+              <Tooltip
+                className="z-50 cursor-pointer"
+                title="Đây là danh hiệu và hình danh hiệu hiện tại của bạn, level càng cao thì danh hiệu càng xịn, bạn sẽ được thay đổi thay đổi danh hiệu và hình danh hiệu sau khi tăng level"
+              >
+                <p className="flex space-x-2 items-center -mt-[20px]">
+                  <span className="text-xl font-semibold">Beginner </span>
+                  <img className="w-6 h-6" src={img.corporal} alt="" />
+                </p>
+              </Tooltip>
             </div>
             <div className="ml-12">
               <div className="flex flex-col">
@@ -59,64 +65,98 @@ const DashBoardLeft = () => {
                   <span className="text-xl font-semibold">Đặng Hùng Thái </span>
                 </div>
                 <div className="flex space-x-5 items-center ">
-                  <span
-                    className="text-lg font-medium"
-                    style={{ color: "#4884ee" }}
+                  <Tooltip
+                    className="cursor-pointer"
+                    title="Đây là level hiện tại của bạn, học càng nhiều, level càng cao, nếu bạn học giỏi sẽ được ghi danh vào TOP USER"
                   >
-                    Level: 1
-                  </span>
-                  <div className="flex items-center">
-                    <UseLottie width={30} height={50} data={lottie.coinstar} />
-                    <span className="font-semibold">2</span>
-                  </div>
+                    <span
+                      className="text-lg font-medium"
+                      style={{ color: "#4884ee" }}
+                    >
+                      Level: 1
+                    </span>
+                  </Tooltip>
+                  <Tooltip
+                    title="Công dụng: Bạn có thể dùng coin để mua vật phẩm để đổi voucher hoặc tăng điểm tích cực và điểm kinh nghiệm. Bạn sẽ nhận được coin sau khi học bài, hoàn thành bài tập , hoàn hành trắc nghiệm,... và ngày tích lũy.
+
+- Lưu ý: Số coin của bạn sẽ được làm mới khi quá hạn tích lũy coin.
+- Ngày làm mới coin: 31/05/2022"
+                    className="cursor-pointer"
+                  >
+                    <div className="flex items-center">
+                      <UseLottie
+                        width={30}
+                        height={50}
+                        data={lottie.coinstar}
+                      />
+                      <span className="font-semibold">2</span>
+                    </div>
+                  </Tooltip>
                 </div>
 
                 <div className="text-sm font-semibold">
                   Tích cực
                   <div className="flex">
-                    <div className="flex items-center space-x-2">
-                      <img className="w-7" src={img.heart} alt="" />
-                      <Progress
-                        strokeWidth={16}
-                        className="bg-[#4442a81a] rounded-full text-[8px] w-48"
-                        percent={80}
-                        stroke={10}
-                        trailColor="#EBEBF6"
-                        strokeColor={{
-                          "0%": "#5b86e5",
-                          "100%": "#36d1dc",
-                        }}
-                        showInfo={false}
-                      />
-                      <span className="whitespace-nowrap text-sm font-bold ">
-                        {" "}
-                        0/2000 HP
-                      </span>
-                    </div>
+                    <Tooltip
+                     className="cursor-pointer"
+                      title="Đây là khu vực hiển thị điểm tích cực của bạn
+
+              Bạn sẽ nhận được điểm kinh nghiệm sau khi hoàn thành lộ trình, khoá học, bài học, bài tập,...
+              
+              Bạn sẽ bị trừ điểm tích cực sau khi không học trong 1 khoảng thời gian, nộp bài quá hạn, làm sai trắc nghiệm,.."
+                      placement="bottom"
+                    >
+                      <div className="flex items-center space-x-2">
+                        <img className="w-7" src={img.heart} alt="" />
+                        <Progress
+                          strokeWidth={16}
+                          className="bg-[#4442a81a] rounded-full text-[8px] w-48"
+                          percent={80}
+                          stroke={10}
+                          trailColor="#EBEBF6"
+                          strokeColor={{
+                            "0%": "#5b86e5",
+                            "100%": "#36d1dc",
+                          }}
+                          showInfo={false}
+                        />
+                        <span className="whitespace-nowrap text-sm font-bold ">
+                          {" "}
+                          0/2000 HP
+                        </span>
+                      </div>
+                    </Tooltip>
                   </div>
                 </div>
                 <div className="text-sm font-semibold">
                   Kinh nghiệm
                   <div className="flex">
-                    <div className="flex items-center space-x-2">
-                      {renderSvg(7, 7)}
-                      <Progress
-                        strokeWidth={16}
-                        className="bg-[#4442a81a] rounded-full text-[8px] w-48"
-                        percent={50}
-                        stroke={10}
-                        trailColor="#EBEBF6"
-                        strokeColor={{
-                          "0%": "#5b86e5",
-                          "100%": "#36d1dc",
-                        }}
-                        showInfo={false}
-                      />
-                      <span className="whitespace-nowrap text-sm font-bold ">
-                        {" "}
-                        8/400 MP
-                      </span>
-                    </div>
+                    <Tooltip
+                    className="cursor-pointer"
+                      title="Đây là khu vực hiển thị điểm kinh nghiệm của bạn
+Bạn sẽ nhận được điểm kinh nghiệm sau khi hoàn thành lộ trình, khoá học, bài học, bài tập,..."
+                      placement="bottom"
+                    >
+                      <div className="flex items-center space-x-2">
+                        {renderSvg(7, 7)}
+                        <Progress
+                          strokeWidth={16}
+                          className="bg-[#4442a81a] rounded-full text-[8px] w-48"
+                          percent={50}
+                          stroke={10}
+                          trailColor="#EBEBF6"
+                          strokeColor={{
+                            "0%": "#5b86e5",
+                            "100%": "#36d1dc",
+                          }}
+                          showInfo={false}
+                        />
+                        <span className="whitespace-nowrap text-sm font-bold ">
+                          {" "}
+                          8/400 XP
+                        </span>
+                      </div>
+                    </Tooltip>
                   </div>
                 </div>
               </div>

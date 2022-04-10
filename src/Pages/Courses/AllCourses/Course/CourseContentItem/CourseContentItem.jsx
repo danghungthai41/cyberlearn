@@ -14,7 +14,7 @@ const CourseContentItem = ({
   soPhutHoanThanh,
 }) => {
   return (
-    <div className="flex flex-col justify-around space-y-5 py-8 px-4 bg-gradient-to-tr from-[#0c2e7c] to-[#4c8cdb] rounded-3xl  w-full scale-95 group hover:scale-100 transition-all duration-500 ">
+    <div className="flex flex-col justify-around h-96 space-y-5 py-8 px-4 bg-gradient-to-tr from-[#0c2e7c] to-[#4c8cdb] rounded-3xl  w-full scale-95 group hover:scale-100 transition-all duration-500 ">
       <div className="flex justify-center">
         <img
           src={`https://backend.cyberlearn.vn/${hinhAnh}`}

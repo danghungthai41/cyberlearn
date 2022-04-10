@@ -6,13 +6,10 @@ import { FaCaretRight } from "react-icons/fa";
 import CourseComplete from "./CourseComplete/CourseComplete";
 import style from "./style.module.css";
 import CardItem from "./CourseComplete/CardItem/CardItem";
+import coursesList from "./Data/dataCertPage.json";
+import dataTable from "./Data/dataTable.json";
 const Certificate = () => {
   const { Panel } = Collapse;
-  const text = `
-  A dog is a type of domesticated animal.
-  Known for its loyalty and faithfulness,
-  it can be found as a welcome guest in many households across the world.
-`;
 
   return (
     <div className="certificate bg-theme w-full h-full p-4 rounded-xl border-[1px] border-white">
@@ -50,33 +47,43 @@ const Certificate = () => {
             collapsible
             ghost={true}
           >
-            <Panel
-              className={`rounded-xl shadow-lg mb-5 `}
-              header={<CourseComplete title={"Combo Lập trình Front End Master ReactJS"} percent={49} quantity={"10/21"} />}
-              key="1"
-            >
-              <div className="flex flex-col space-y-5">
-                <div>
-                  <CardItem />
-                </div>
+            {coursesList.map((course) => (
+              <Panel
+                className={`rounded-xl shadow-lg mb-5 `}
+                header={<CourseComplete course={course} />}
+                key={course.id}
+              >
+                <div className="flex flex-col space-y-5">
+                  {/* {course.danhSachKhoaHoc.map((item) => (
+                    <div key={item.id}>
+                      <CardItem item={item} />
+                    </div>
+                  ))} */}
 
-                <div>
-                  <CardItem />
+                  {course.danhSachKhoaHoc.map((item) => {
+                    return dataTable.map((course1) => {
+                      return course1.danhSachKhoaHoc.map((item1) => {
+                        return (
+                          item.id === item1.maKhoaHoc && (
+                            <CardItem item={item} data={item1.danhSachBaiTap} />
+                          )
+                        );
+                      });
+                    });
+                  })}
                 </div>
-                <div>
-                  <CardItem />
-                </div>
-                <div>
-                  <CardItem />
-                </div>
-                <div>
-                  <CardItem />
-                </div>
-              </div>
-            </Panel>
+              </Panel>
+            ))}
+            {/* 
             <Panel
               className={`rounded-xl p-2 ${style.a} shadow-lg mb-5`}
-              header={<CourseComplete title={"Combo Lập trình Front End Foundation"} percent={93} quantity={"14/15"} />}
+              header={
+                <CourseComplete
+                  title={"Combo Lập trình Front End Foundation"}
+                  percent={93}
+                  quantity={"14/15"}
+                />
+              }
               key="2"
             >
               <div className="flex flex-col space-y-5">
@@ -100,7 +107,13 @@ const Certificate = () => {
             </Panel>
             <Panel
               className={`rounded-xl p-2 ${style.a} shadow-lg mb-5`}
-              header={<CourseComplete title={"Combo Tư duy lập trình, thuật toán, hướng đối tượng"} percent={8} quantity={"1/15"}/>}
+              header={
+                <CourseComplete
+                  title={"Combo Tư duy lập trình, thuật toán, hướng đối tượng"}
+                  percent={8}
+                  quantity={"1/15"}
+                />
+              }
               key="3"
             >
               <div className="flex flex-col space-y-5">
@@ -124,7 +137,15 @@ const Certificate = () => {
             </Panel>
             <Panel
               className={`rounded-xl p-2 ${style.a} shadow-lg mb-5`}
-              header={<CourseComplete title={"Combo Backend - NodeJS Foundation. Viết API cho dự án thực tế"} percent={0} quantity={"0/21"} />}
+              header={
+                <CourseComplete
+                  title={
+                    "Combo Backend - NodeJS Foundation. Viết API cho dự án thực tế"
+                  }
+                  percent={0}
+                  quantity={"0/21"}
+                />
+              }
               key="4"
             >
               <div className="flex flex-col space-y-5">
@@ -145,7 +166,7 @@ const Certificate = () => {
                   <CardItem />
                 </div>
               </div>
-            </Panel>
+            </Panel> */}
           </Collapse>
         </div>
       </div>

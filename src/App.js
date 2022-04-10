@@ -1,6 +1,6 @@
 import React from "react";
 import "antd/dist/antd.css";
-import 'animate.css';
+import "animate.css";
 import "./index.css";
 import { BrowserRouter as Router, Switch } from "react-router-dom";
 import SignIn from "./Pages/SignIn/SignIn";
@@ -11,6 +11,7 @@ import Certificate from "./Pages/Certificate/Certificate";
 import Notifications from "./Pages/Notifications/Notifications";
 import LayoutAdmin from "./HOC/Layout/LayoutAdmin";
 import Courses from "./Pages/Courses/Courses";
+import Detail from "./Pages/Courses/Detail/Detail";
 
 const App = () => {
   return (
@@ -18,6 +19,9 @@ const App = () => {
       <Switch>
         <Route path="/lms" exact>
           <SignIn />
+        </Route>
+        <Route path="/detail-khoa-hoc" exact>
+          <Detail />
         </Route>
         <LayoutAdmin>
           <Route path="/dashboard" exact>
@@ -33,6 +37,9 @@ const App = () => {
           </Route>
           <Route path="/thongbao-task" exact>
             <Notifications />
+          </Route>
+          <Route path="/" exact>
+            <DashBoard />
           </Route>
         </LayoutAdmin>
       </Switch>

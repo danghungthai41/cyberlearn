@@ -1,13 +1,14 @@
 import React from "react";
 import img from "../../Theme";
-import { Tabs, Pagination } from "antd";
+import { Tabs, Pagination, List, Avatar } from "antd";
 import NotiLeftComponent from "./NotiLeftComponent/NotiLeftComponent";
 import NotiRightComponent from "./NotiRightComponent/NotiRightComponent";
+import dataNotiPage from "./Data/dataNotiPage.json";
 const TabPane = Tabs;
 const Notifications = () => {
   return (
-    <div className="flex space-x-4 w-full h-full">
-      <div className="bg-theme w-1/2 rounded-xl p-4 h-screen">
+    <div className="flex space-x-4 w-full">
+      <div className="bg-theme w-1/2 rounded-xl p-4 h-full">
         <div className="mb-3">
           <p className="text-lg font-medium">Thông báo & Lịch sử</p>
         </div>
@@ -19,10 +20,22 @@ const Notifications = () => {
               key="1"
             >
               <div className="flex flex-col space-y-4 overflow-hidden justify-center items-center h-full">
-                {[1, 2, 3, 4, 5].map((_, index) => (
-                  <NotiLeftComponent key={index} />
+                {/* {dataNotiPage.map((item) => (
+                  <NotiLeftComponent item={item} key={item.id} />
                 ))}
-                <Pagination defaultCurrent={1} total={50} />
+                <Pagination defaultCurrent={1} total={50} /> */}
+
+                <List
+                  itemLayout="horizontal"
+                  className="flex flex-col items-center"
+                  dataSource={dataNotiPage}
+                  pagination={{ pageSize: 5, position: "bottom" }}
+                  renderItem={(item) => (
+                    <List.Item>
+                      <NotiLeftComponent item={item} key={item.id} />
+                    </List.Item>
+                  )}
+                />
               </div>
             </TabPane>
             <TabPane

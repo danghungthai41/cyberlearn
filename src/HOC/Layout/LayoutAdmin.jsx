@@ -9,11 +9,12 @@ import { MenuUnfoldOutlined, MenuFoldOutlined } from "@ant-design/icons";
 import { NavLink } from "react-router-dom";
 import { useLocation } from "react-router-dom";
 import { useParams } from "react-router-dom";
+import { split } from "lodash";
 const LayoutAdmin = ({ children }) => {
+  const { pathname } = useLocation();
   const [collapse, setCollapse] = useState(false);
-  const [active, setActive] = useState("/dashboard");
+  const [active, setActive] = useState(pathname);
   const { Sider, Content } = Layout;
-
   return (
     <Layout
       className="bg-transparent"
@@ -23,7 +24,6 @@ const LayoutAdmin = ({ children }) => {
         backgroundPosition: "center",
         backgroundSize: "cover",
         backgroundRepeat: "no-repeat",
-
       }}
     >
       <Sider
@@ -61,7 +61,7 @@ const LayoutAdmin = ({ children }) => {
             className={`after:border-none p-3 ${
               active === "/lo-trinh" ? "shadow-lg" : ""
             }  text-black h-auto bg-inherit  rounded-xl hover:color-[#000] hover:bg-transparent `}
-            key="2"
+            key="3"
             onClick={() => setActive("/lo-trinh")}
           >
             <div className="flex flex-col text-center items-center justify-center">
@@ -82,14 +82,14 @@ const LayoutAdmin = ({ children }) => {
             className={`after:border-none p-3 ${
               active === "/chung-nhan" ? "shadow-lg" : ""
             }  text-black h-auto bg-inherit  rounded-xl hover:color-[#000] hover:bg-transparent `}
-            key="2"
+            key="3"
             onClick={() => setActive("/chung-nhan")}
           >
             <div className="flex flex-col text-center items-center justify-center">
               <img className="w-6 mb-2" src={img.graduationCapIcon} alt="" />
 
               <NavLink to="/chung-nhan">
-                <span className="text-sm m-0 whitespace-pre-wrap tracking-tighter text-black">
+                <span className="text-sm m-0 break-spaces tracking-tighter text-black">
                   {!collapse && "Điểm & Chứng nhận"}
                 </span>
               </NavLink>
@@ -106,8 +106,8 @@ const LayoutAdmin = ({ children }) => {
             <div className="flex flex-col text-center items-center justify-center">
               <img className="w-6 mb-2" src={img.eventIcon} alt="" />
               <NavLink to="/thongbao-task">
-                <span className="text-sm m-0 whitespace-pre-wrap tracking-tighter text-black">
-                {!collapse && "Thông báo & Sự kiện"}
+                <span className="text-sm m-0 h-10 break-spaces tracking-tighter text-black">
+                  {!collapse && "Thông báo & Sự kiện"}
                 </span>
               </NavLink>
             </div>

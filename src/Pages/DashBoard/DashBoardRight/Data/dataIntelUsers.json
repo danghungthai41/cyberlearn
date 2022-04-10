@@ -1,0 +1,122 @@
+[
+    {
+      "hoTen": "Trần Duy Đại",
+      "kinhNghiem": 224,
+      "avatar": "https://graph.facebook.com/2866189686997851/picture?type=large",
+      "capDo": 28,
+      "tichCuc": 24800,
+      "huyHieu": "/images/hh_3.png",
+      "danhHieu": "Beginner",
+      "danhHieuHinh": "/images/DH_3.png",
+      "tongDiem": 5422,
+      "baiTapDaLam": 56
+    },
+    {
+      "hoTen": "Phạm Duy Quang",
+      "kinhNghiem": 350,
+      "avatar": "https://graph.facebook.com/1729576093856781/picture?type=large",
+      "capDo": 25,
+      "tichCuc": 0,
+      "huyHieu": "/images/hh_3.png",
+      "danhHieu": "Beginner",
+      "danhHieuHinh": "/images/DH_3.png",
+      "tongDiem": 5332,
+      "baiTapDaLam": 55
+    },
+    {
+      "hoTen": "Nông Quốc Chiến",
+      "kinhNghiem": 20,
+      "avatar": "https://graph.facebook.com/2632649533691570/picture?type=large",
+      "capDo": 25,
+      "tichCuc": 2500,
+      "huyHieu": "/images/hh_3.png",
+      "danhHieu": "Beginner",
+      "danhHieuHinh": "/images/DH_3.png",
+      "tongDiem": 5227,
+      "baiTapDaLam": 55
+    },
+    {
+      "hoTen": "Nguyễn Hữu Minh Ánh",
+      "kinhNghiem": 280,
+      "avatar": "https://graph.facebook.com/3184190124977034/picture?type=large",
+      "capDo": 20,
+      "tichCuc": 0,
+      "huyHieu": "/images/hh_3.png",
+      "danhHieu": "Beginner",
+      "danhHieuHinh": "/images/DH_3.png",
+      "tongDiem": 4902,
+      "baiTapDaLam": 50
+    },
+    {
+      "hoTen": "Nguyễn Tuấn Bảo",
+      "kinhNghiem": 320,
+      "avatar": "https://graph.facebook.com/1070733126695914/picture?type=large",
+      "capDo": 17,
+      "tichCuc": 2900,
+      "huyHieu": "/images/hh_2.png",
+      "danhHieu": "Beginner",
+      "danhHieuHinh": "/images/DH_2.png",
+      "tongDiem": 4831,
+      "baiTapDaLam": 50
+    },
+    {
+      "hoTen": "Phạm Minh Huy",
+      "kinhNghiem": 70,
+      "avatar": "https://graph.facebook.com/1534788216712801/picture?type=large",
+      "capDo": 22,
+      "tichCuc": 0,
+      "huyHieu": "/images/hh_3.png",
+      "danhHieu": "Beginner",
+      "danhHieuHinh": "/images/DH_3.png",
+      "tongDiem": 4795,
+      "baiTapDaLam": 50
+    },
+    {
+      "hoTen": "Hồ Quân Đạt",
+      "kinhNghiem": 30,
+      "avatar": "https://graph.facebook.com/2701871466695502/picture?type=large",
+      "capDo": 24,
+      "tichCuc": 1400,
+      "huyHieu": "/images/hh_3.png",
+      "danhHieu": "Beginner",
+      "danhHieuHinh": "/images/DH_3.png",
+      "tongDiem": 4736,
+      "baiTapDaLam": 50
+    },
+    {
+      "hoTen": "Trần Được Quyền",
+      "kinhNghiem": 90,
+      "avatar": "https://i.kinja-img.com/gawker-media/image/upload/c_scale,f_auto,fl_progressive,pg_1,q_80,w_800/ijsi5fzb1nbkbhxa2gc1.png",
+      "capDo": 22,
+      "tichCuc": 2000,
+      "huyHieu": "/images/hh_3.png",
+      "danhHieu": "Beginner",
+      "danhHieuHinh": "/images/DH_3.png",
+      "tongDiem": 4732,
+      "baiTapDaLam": 50
+    },
+    {
+      "hoTen": "Nguyễn Văn Bảo",
+      "kinhNghiem": 360,
+      "avatar": "https://graph.facebook.com/545585213532449/picture?type=large",
+      "capDo": 21,
+      "tichCuc": 2300,
+      "huyHieu": "/images/hh_3.png",
+      "danhHieu": "Beginner",
+      "danhHieuHinh": "/images/DH_3.png",
+      "tongDiem": 4718,
+      "baiTapDaLam": 51
+    },
+    {
+      "hoTen": "Võ Minh Luân",
+      "kinhNghiem": 104,
+      "avatar": "https://graph.facebook.com/3132485346982276/picture?type=large",
+      "capDo": 21,
+      "tichCuc": 1900,
+      "huyHieu": "/images/hh_3.png",
+      "danhHieu": "Beginner",
+      "danhHieuHinh": "/images/DH_3.png",
+      "tongDiem": 4712,
+      "baiTapDaLam": 49
+    }
+  ]

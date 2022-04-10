@@ -40,3 +40,11 @@
 .ant-tabs-ink-bar{
   @apply bg-black
 }
+
+.ant-menu-inline-collapsed-tooltip{
+  display: none !important;
+}
+.courseContent .panel-header .anticon:first-child {
+  transform: translateY(33px) !important;
+}
+  
